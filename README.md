@@ -1,5 +1,5 @@
 # ionic-android-bug
-Repo of an ionic app that fails building with an `:app:processDebugMainManifest` error.
+Repo of an Ionic app that fails building with an `:app:processDebugMainManifest` error.
 
 See [this post](https://forum.ionicframework.com/t/unable-to-run-ionic-app-after-updating-capacitor-from-v2-to-v3-getting-a-processdebugmainmanifest-error/210935?u=marsnebulasoup)
 
