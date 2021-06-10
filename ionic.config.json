@@ -1,0 +1,7 @@
+{
+  "name": "ionic-android-bug",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
