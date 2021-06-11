@@ -1,7 +1,21 @@
 # ionic-android-bug
 Repo of an Ionic app that fails building with an `:app:processDebugMainManifest` error.
 
-See [this post](https://forum.ionicframework.com/t/unable-to-run-ionic-app-after-updating-capacitor-from-v2-to-v3-getting-a-processdebugmainmanifest-error/210935?u=marsnebulasoup)
+See [this post](https://forum.ionicframework.com/t/unable-to-run-ionic-app-after-updating-capacitor-from-v2-to-v3-getting-a-processdebugmainmanifest-error/210935?u=marsnebulasoup).
+
+**Error message:**
+```
+[capacitor]
+[capacitor]         FAILURE: Build failed with an exception.
+[capacitor]
+[capacitor]         * What went wrong:
+[capacitor]         Execution failed for task ':app:processDebugMainManifest'.
+[capacitor]         > Task :capacitor-app:generateDebugRFile
+[capacitor]         > Task :app:processDebugMainManifest FAILED
+[capacitor]         > Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module @22738b3d
+[capacitor]
+```
+<sub>(full error message below)</sub>
 
 
 **AndroidManifest.xml**
